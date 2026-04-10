@@ -6,9 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Goal-oriented Business Student with a foundation in Strategic Planning 
+          and Market Analysis. Experienced in driving projects and managing teams 
+          through club leadership. Competent in Creative Graphics Design using the 
+          Adobe Suite, aiming to use academic knowledge and an entrepreneurial 
+          mindset for a future venture.
+          <br /><br />
+          <strong>Languages:</strong> English, Bangla, German (A1), Hindi
         </p>
       </div>
     </div>

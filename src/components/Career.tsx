@@ -15,44 +15,52 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>3rd Year student (BBA)</h4>
+                <h5>University of Chittagong</h5>
               </div>
-              <h3>20XX</h3>
+              <h3 style={{ marginRight: "25px" }}>2026–Present</h3>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
+            <p>Education</p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Graphics Designer & Secretary</h4>
+                <h5>Chittagong University Business Club</h5>
               </div>
-              <h3>20XX</h3>
+              <h3 style={{ marginRight: "25px" }}>2026–Running</h3>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
+            <p>Experience</p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Executive Member (Graphics team wing)</h4>
+                <h5>Boalkhali Student Welfare Association</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2024–2025</h3>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
+            <p>Experience</p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Associate Member</h4>
+                <h5>Management Communication Club</h5>
+              </div>
+              <h3>2023–2024</h3>
+            </div>
+            <p>Experience</p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>HSC (Science)</h4>
+                <h5>Sir Ashutosh Government College</h5>
+              </div>
+              <h3>2019–2021</h3>
+            </div>
+            <p>Education</p>
           </div>
         </div>
       </div>

@@ -43,6 +43,7 @@ a.contact-social {
   font-weight: 500;
   line-height: 20px;
   display: flex;
+  align-items: center;
   gap: 10px;
   opacity: 0.5;
 }

@@ -10,17 +10,16 @@ import {
   CylinderCollider,
   RapierRigidBody,
 } from "@react-three/rapier";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
+  "/images/Cplus.png",
+  "/images/canva.png",
+  "/images/css.png",
+  "/images/html.png",
   "/images/javascript.webp",
+  "/images/ps.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -128,6 +127,12 @@ const TechStack = () => {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
+    // Refresh ScrollTrigger to recalculate pin positions since this component lazy-loads
+    // Add a slight delay to ensure the DOM is completely laid out.
+    setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 100);
+
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
       const threshold = document

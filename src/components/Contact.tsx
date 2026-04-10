@@ -16,52 +16,37 @@ const Contact = () => {
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:+8801862866827" data-cursor="disable">
+                01862866827
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com"
+              href="https://www.facebook.com/share/19u7qSyM1H/?mibextid=wwXIfr"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
-              Github <MdArrowOutward />
+              Facebook <MdArrowOutward />
             </a>
+            <h4 style={{ marginTop: "2rem" }}>Address</h4>
             <a
-              href="https://www.linkedin.com"
-              target="_blank"
+              href="#"
               data-cursor="disable"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://x.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              Shahjalal Hall at <br/>Chittagong University
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
+              Designed and Developed <br /> by <span>Md. Jahidul Hoque Emon</span>
             </h2>
             <h5>
-              <MdCopyright /> 2024
+              <MdCopyright /> {new Date().getFullYear()}
             </h5>
           </div>
         </div>

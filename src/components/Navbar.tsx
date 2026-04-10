@@ -1,15 +1,15 @@
-import { useEffect } from "react";
+import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
 import "./styles/Navbar.css";
 
-gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
+gsap.registerPlugin(ScrollSmoother, ScrollTrigger, useGSAP);
 export let smoother: ScrollSmoother;
 
 const Navbar = () => {
-  useEffect(() => {
+  useGSAP(() => {
     smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
@@ -46,11 +46,11 @@ const Navbar = () => {
           Logo
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:jahidulhoqueemon1@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          jahidulhoqueemon1@gmail.com
         </a>
         <ul>
           <li>
